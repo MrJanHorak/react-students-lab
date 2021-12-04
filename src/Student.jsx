@@ -10,7 +10,7 @@ function Student(props) {
   return (
     <>
       <CardGroup>
-        <Card bg="secondary" border="primary" style={{ width: "18rem" }}>
+        <Card bg="secondary" border="dark" style={{ width: "18rem" }}>
           <Card.Body>
             <Card.Header as="h5">{props.name}</Card.Header>
             <Card.Text>{props.bio}</Card.Text>

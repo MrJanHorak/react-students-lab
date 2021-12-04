@@ -3,7 +3,7 @@ import { ListGroup } from 'react-bootstrap';
 
 function Score(props) {
   return (
-    <ListGroup.Item variant="primary">
+    <ListGroup.Item variant="secondary">
      <span> <b> Date: </b>{props.date} </span>
      <br/>
      <span> <b> Score: </b>{props.score} </span>

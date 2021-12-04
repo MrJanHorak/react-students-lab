@@ -3,11 +3,14 @@
   text-align: justify;
   display: flex;
   justify-content: center;
-  gap: 5px;
-  margin-top: 5px;
+  gap: 9px;
+  margin-top: 9px;
 }
 
 .list-group-item {
+  text-align: center;
+}
+.card-header {
   text-align: center;
 }
 
