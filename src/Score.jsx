@@ -1,14 +1,20 @@
-import React from 'react';
-import { ListGroup } from 'react-bootstrap';
+import React from "react";
+import { ListGroup } from "react-bootstrap";
 
 function Score(props) {
   return (
     <ListGroup.Item variant="secondary">
-     <span> <b> Date: </b>{props.date} </span>
-     <br/>
-     <span> <b> Score: </b>{props.score} </span>
-     </ListGroup.Item>
-  )
+      <span>
+        <b> Date: </b>
+        {props.date}
+      </span>
+      <br />
+      <span>
+        <b> Score: </b>
+        {props.score}
+      </span>
+    </ListGroup.Item>
+  );
 }
 
-export default Score
+export default Score;

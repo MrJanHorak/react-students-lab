@@ -3,8 +3,8 @@ import Score from "./Score";
 import { Card, ListGroup, CardGroup } from "react-bootstrap";
 
 function Student(props) {
-  const scores = props.scores.map((score, idx) => {
-    return <Score score={score.score} date={score.date} key={idx} />;
+  const scores = props.scores.map((element, idx) => {
+    return <Score score={element.score} date={element.date} key={idx} />;
   });
 
   return (
